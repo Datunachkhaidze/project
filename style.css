@@ -360,7 +360,10 @@ input{
 
   
 } 
-
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
 
 .boxx{
     flex-grow: 1;
