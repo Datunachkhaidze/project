@@ -87,7 +87,9 @@ nav ul li a{
     height:70vh ;
     /* background-color: #4F5A26; */
   display: flex;
-
+  flex-direction: column;
+  
+}
 
 img{
     width: 300px;
