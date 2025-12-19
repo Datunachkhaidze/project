@@ -68,8 +68,10 @@ nav ul li a{
 
 
 
-
-
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
@@ -125,8 +127,9 @@ body{
     flex-grow: 1;
     background-position: 80% 20%;
     background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/f8596d7ebf694179aa11682b834670f2.jpg/v1/fill/w_706,h_1463,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f8596d7ebf694179aa11682b834670f2.jpg)
+    background-image: url(https://static.wixstatic.com/media/f8596d7ebf694179aa11682b834670f2.jpg/v1/fill/w_706,h_1463,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f8596d7ebf694179aa11682b834670f2.jpg);
 }
+
 
 
 .photo img{
@@ -170,6 +173,8 @@ body{
     color:white;
     border-radius: 10px;
     border: 0.5px solid black;
+    width: 100px;
+    height: 30px;
 }
 
 .team button a{
@@ -177,7 +182,8 @@ body{
     background-color:#4F5A26;
     color: white;
     border-radius: 10px;
-}
+     
+ }
 
 
 
@@ -201,21 +207,25 @@ body{
     height: 60vh;
     background-color: #FCF87C;
     color: #4F5A26;
- border-top: 2px solid black;
+    border-top: 2px solid black;
+
 }
 .prog{
+   
     width: 100%;
     height: 40vh;
    display: grid;
     grid-template-columns: 5fr 5fr ;
      grid-template:1fr 1fr / 1fr 1fr ;
+ 
    
 }
 
 .box{
+  
     width: 100%;
     height: 20vh;
-   display: flex;
+  display: flex;
    border: 2px solid black;
   justify-content: center;
   align-items: center;
@@ -230,9 +240,11 @@ body{
     color:white;
     border-radius: 10px;
     border: 0.5px solid black;
-    margin: 50px;
     
-  
+    margin: 30px;
+     width: 80px;
+   height: 30px;
+   
     
    
 }
@@ -581,9 +593,6 @@ border-bottom: 2px solid black;
     gap: 30px;
       border-bottom: 2px solid black;
 }
-
-
-
 
 
 
